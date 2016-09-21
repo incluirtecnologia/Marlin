@@ -170,27 +170,51 @@ const short temptable_3[][2] PROGMEM = {
 #endif
 
 #if ANY_THERMISTOR_IS(4) // 10k thermistor
+//const short temptable_4[][2] PROGMEM = {
+//  {    1 * OVERSAMPLENR, 430 },
+//  {   54 * OVERSAMPLENR, 137 },
+//  {  107 * OVERSAMPLENR, 107 },
+//  {  160 * OVERSAMPLENR,  91 },
+//  {  213 * OVERSAMPLENR,  80 },
+//  {  266 * OVERSAMPLENR,  71 },
+//  {  319 * OVERSAMPLENR,  64 },
+//  {  372 * OVERSAMPLENR,  57 },
+//  {  425 * OVERSAMPLENR,  51 },
+//  {  478 * OVERSAMPLENR,  46 },
+//  {  531 * OVERSAMPLENR,  41 },
+//  {  584 * OVERSAMPLENR,  35 },
+//  {  637 * OVERSAMPLENR,  30 },
+//  {  690 * OVERSAMPLENR,  25 },
+//  {  743 * OVERSAMPLENR,  20 },
+//  {  796 * OVERSAMPLENR,  14 },
+//  {  849 * OVERSAMPLENR,   7 },
+//  {  902 * OVERSAMPLENR,   0 },
+//  {  955 * OVERSAMPLENR, -11 },
+//  { 1008 * OVERSAMPLENR, -35 }
+//};
+
 const short temptable_4[][2] PROGMEM = {
-  {    1 * OVERSAMPLENR, 430 },
-  {   54 * OVERSAMPLENR, 137 },
-  {  107 * OVERSAMPLENR, 107 },
-  {  160 * OVERSAMPLENR,  91 },
-  {  213 * OVERSAMPLENR,  80 },
-  {  266 * OVERSAMPLENR,  71 },
-  {  319 * OVERSAMPLENR,  64 },
-  {  372 * OVERSAMPLENR,  57 },
-  {  425 * OVERSAMPLENR,  51 },
-  {  478 * OVERSAMPLENR,  46 },
-  {  531 * OVERSAMPLENR,  41 },
-  {  584 * OVERSAMPLENR,  35 },
-  {  637 * OVERSAMPLENR,  30 },
-  {  690 * OVERSAMPLENR,  25 },
-  {  743 * OVERSAMPLENR,  20 },
-  {  796 * OVERSAMPLENR,  14 },
-  {  849 * OVERSAMPLENR,   7 },
-  {  902 * OVERSAMPLENR,   0 },
-  {  955 * OVERSAMPLENR, -11 },
-  { 1008 * OVERSAMPLENR, -35 }
+  {  36,  185 },  
+  {  45,  172 },
+  {  50,  169 },
+  {  58,  161 },
+  {  75,  146 },
+  {  93,  135 },
+  {  114, 125 },  
+  {  146, 112 },
+  {  189, 102 },
+  {  243,  89 },
+  {  311,  79 },
+  {  348,  74 },
+  {  390,  68 },
+  {  435,  60 },
+  {  457,  57 },
+  {  490,  53 },
+  {  540,  46 },
+  {  584,  40 },
+  {  621,  35 },
+  {  658,  30 },
+  {  710,  23 }
 };
 #endif
 
